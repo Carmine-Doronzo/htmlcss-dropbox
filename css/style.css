@@ -20,6 +20,13 @@ img{
     max-width: 100%;
 }
 
+button{
+    padding: 5px 10px ;
+    border: none;
+}
+
+
+
 /* LAYOUT */
 
 .container-lg{
@@ -28,6 +35,8 @@ img{
 
 .container{
     margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
 }
 
 .container-sm{
@@ -39,13 +48,16 @@ img{
 }
 
 .col-33{
-    width: 40%;
+    width: 33%;
 }
 
 .col-66{
-    width: 60%;
+    width: 77%;
 }
 
+.col-100{
+    widt
+}
 /* STYLE */
 
 /* Navigation bar */
@@ -65,31 +77,93 @@ img{
 
 
 
-/* Main content */
+/* hero content */
 .container-lg__main h1{
     padding: 40px;
+    text-align: center;
 }
 
 .container-lg__main{
     background-color: #abcfe4;
+    
 }
 
-.container__main{
+
+
+.container__hero{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
     display: flex;
     justify-content:center ;
     flex-direction: row;
     
 }
 
-.row__main{
+.row__hero{
     display: flex;
-    flex-direction: column;
+    
 }
 
-.col-33__main{
+.col-33__hero{
+    width: 33%;
+    padding: 0 20px;
     display: flex;
-    gap: 50px;
+    
     flex-direction: column;
+    
+}
+
+.col-33__hero i{
+    margin-top: auto;
+}
+
+.col-33__content *{
+    margin-top: auto;
+}
+
+.col-66__hero{
+    width: 77%;
+}
+
+/* plane content */
+
+.container__plane{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-sm__plane{
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row__plane{
+    display: flex;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* UTILITY */
+
+.margvert{
+    margin: 20px 0;
+}
+
+.paddvert{
+    padding: 20px 0;
+}
