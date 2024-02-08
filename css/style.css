@@ -9,6 +9,7 @@
 a{
     text-decoration: none;
     color: currentColor;
+
 }
 
 ul,ol,menu{
@@ -22,9 +23,29 @@ ul,ol,menu{
 }
 
 .container{
-
+    margin: 0 auto;
 }
 
 .container-sm{
+    margin: 0 auto
+}
+
+.row{
+    width: 100%;
+}
+
+/* STYLE */
+
+.row__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row__nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     
 }
