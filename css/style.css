@@ -16,6 +16,10 @@ ul,ol,menu{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* LAYOUT */
 
 .container-lg{
@@ -34,8 +38,17 @@ ul,ol,menu{
     width: 100%;
 }
 
+.col-33{
+    width: 40%;
+}
+
+.col-66{
+    width: 60%;
+}
+
 /* STYLE */
 
+/* Navigation bar */
 .row__nav{
     display: flex;
     flex-direction: row;
@@ -49,3 +62,34 @@ ul,ol,menu{
     gap: 20px;
     
 }
+
+
+
+/* Main content */
+.container-lg__main h1{
+    padding: 40px;
+}
+
+.container-lg__main{
+    background-color: #abcfe4;
+}
+
+.container__main{
+    display: flex;
+    justify-content:center ;
+    flex-direction: row;
+    
+}
+
+.row__main{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-33__main{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+
