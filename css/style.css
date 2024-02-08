@@ -1,0 +1,30 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,ol,menu{
+    list-style: none;
+}
+
+/* LAYOUT */
+
+.container-lg{
+    width: 100%;
+}
+
+.container{
+
+}
+
+.container-sm{
+    
+}
