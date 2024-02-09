@@ -49,6 +49,7 @@ button{
 
 .col-33{
     width: calc(100% / 3);
+    max-width: 100%;
 }
 
 .col-66{
@@ -157,8 +158,19 @@ button{
     border: 1px solid #cfcfd2;
 }
 
+.main-card ul 
+{
+    padding: 20px;
+    font-size: 10px;
+}
 
 
+
+.tratt{
+    width: 50px;
+    color: #cfcfd2;
+
+}
 
 
 
