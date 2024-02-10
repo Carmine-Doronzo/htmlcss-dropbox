@@ -48,8 +48,8 @@ button{
 }
 
 .col-33{
-    width: calc(100% / 3);
-    max-width: 100%;
+    width: calc((100% / 3) - 10px);
+    max-height: 100%;
 }
 
 .col-66{
@@ -145,6 +145,8 @@ button{
 
 .row__plane{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* card plane */
@@ -154,23 +156,21 @@ button{
     text-align: center;
 }
 
-.main-card{
-    border: 1px solid #cfcfd2;
+.main-card ul li{
+
+    padding: 20px 0;
+   
 }
 
 .main-card ul 
 {
     padding: 20px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
 
-.tratt{
-    width: 50px;
-    color: #cfcfd2;
 
-}
 
 
 
@@ -193,7 +193,29 @@ button{
 .paddoriz{
     padding: 0 20px;
 }
-
+.padd-top{
+    padding-top: 20px;
+}
 .flex{
     display: flex;
+}
+
+.border{
+    border: 1px solid #cfcfd2;
+}
+.padding{
+    padding: 20px;
+}
+
+.font-size{
+    font-size: 12px;
+}
+
+.padd-top__arrow{
+    padding-top: 110px;
+    font-size: 40px;
+}
+
+.padding-25{
+    padding: 25px;
 }
