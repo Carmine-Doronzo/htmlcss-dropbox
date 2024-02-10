@@ -206,8 +206,15 @@ button{
     padding-top: 40px;
 }
 
+/* F.A.Q */
 
+.faq *{
+    margin: 20px 0;
+}
 
+.faq i{
+    margin: 0 80px;
+}
 
 
 
