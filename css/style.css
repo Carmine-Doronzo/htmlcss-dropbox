@@ -217,6 +217,12 @@ button{
     width: calc(4 * 100% /12);
 }
 
+.col-60__part a{
+    text-decoration: underline;
+    color: blue;
+}
+
+
 /* color square */
 
 .square{
