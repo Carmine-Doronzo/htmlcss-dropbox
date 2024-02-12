@@ -40,7 +40,8 @@ button{
 }
 
 .container-sm{
-    margin: 0 auto
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 .row{
@@ -213,9 +214,29 @@ button{
 }
 
 .faq i{
-    margin: 0 80px;
+    margin: 0 73px;
 }
 
+
+/* Footer */
+
+.col-25{
+    width: 25%;
+}
+
+.col-25 ul > li{
+    padding: 5px 0;
+}
+
+.national *{
+    padding: 60px 0;
+
+}
+
+.national span{
+    padding: 0 7px;
+
+}
 
 
 /* UTILITY */
@@ -274,6 +295,10 @@ button{
 
 }
 
+.font-white{
+    color: white;
+}
+
 .bg-green{
     background-color: #93d29e;
 }
@@ -305,5 +330,9 @@ button{
 
 .bg-azuredark{
     background-color:#abcfe4;
+}
+
+.bg-black{
+    background-color: black;
 }
 
