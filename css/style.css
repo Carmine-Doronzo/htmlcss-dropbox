@@ -159,9 +159,7 @@ button{
     text-align: center;
 }
 
-.main-card{
 
-}
 
 .main-card ul li{
 
@@ -169,10 +167,30 @@ button{
 
 }
 
+
 .main-card ul
 {
     padding: 20px;
     font-size: 12px;
+}
+
+.cta div {
+    padding: 20px 20px;
+    font-size: 12px;
+
+}
+
+.cta .cta-link > *{
+    padding-bottom: 15px;
+}
+
+.cta .cta-link a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.check-color li i{
+    color: blue;
 }
 
 /* partner section */
