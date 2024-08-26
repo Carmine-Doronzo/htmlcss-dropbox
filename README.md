@@ -1,0 +1,1 @@
+Esercitazione con valutazione finale in cui ho riprodotto il layout di Dropbox utilizzando le nozioni di HTML e CSS imparate fino a quel giorno. 
